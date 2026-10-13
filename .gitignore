@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+downloads/
+*.egg-info/
+*.egg
+
+# Virtual Environment
+.venv/
+env/
+.env
+
+# Logs
+src/logs/*
+!src/logs/.gitkeep
+*.log
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.sqlite3

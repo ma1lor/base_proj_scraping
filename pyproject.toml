@@ -1,0 +1,18 @@
+[project]
+name = "base-proj"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ma1lor", email = "scherbak_nazar@ukr.net" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "curl-cffi>=0.16.3",
+    "loguru>=0.7.3",
+    "psycopg[binary,pool]>=3.3.6",
+    "pydantic-settings>=2.15.0",
+]
+
+[tool.uv]
+package = false

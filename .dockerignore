@@ -1,0 +1,17 @@
+.git
+.gitignore
+.dockerignore
+.env
+.env.example
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+src/logs/*
+!src/logs/.gitkeep
+.idea/
+.vscode/
+README.md
